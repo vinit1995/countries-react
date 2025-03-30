@@ -1,6 +1,5 @@
 {
-  "name": "vite-react-starter",
-  "homepage": "https://vinit1995.github.io/countries-react/",
+  "name": "vite-react-starter",  
   "private": true,
   "version": "0.0.0",
   "type": "module",
