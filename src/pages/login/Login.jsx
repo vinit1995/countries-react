@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../store/reducers/authSlice";
 import { Form, Button, Container, Row, Col, InputGroup } from "react-bootstrap";
+import loginImg from "../../assets/login-img.png";
 import {
   FaGoogle,
   FaFacebook,
@@ -180,11 +181,11 @@ const Login = () => {
           className="d-none d-md-flex align-items-center justify-content-center"
         >
           <img
-            src="../src/assets/login-img.png"
+            src={loginImg}
             alt="login-img"
             className="img-fluid"
             style={{ maxHeight: "600px" }}
-          />
+          />;
         </Col>
       </Row>
     </Container>
