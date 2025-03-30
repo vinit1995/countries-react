@@ -39,7 +39,7 @@ Country Explorer is a React-based web application that displays information abou
    ```
 4. Create a `.env` file and add the API URL:
    ```sh
-   VITE_API_URL=https://restcountries.com/v2/all?fields=name,region,flag,independent
+   VITE_API_URL=https://restcountries.com/v2/all?fields=name,region,flag
    ```
 5. Start the development server:
    ```sh
