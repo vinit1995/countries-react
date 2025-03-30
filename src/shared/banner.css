@@ -1,0 +1,25 @@
+.custom-carousel {
+  height: 400px;  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-carousel > div {
+  height: 100%;
+}
+
+.indicator-icon {
+  background-color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.carousel-indicators .active {
+  background-color: #000000;
+}
