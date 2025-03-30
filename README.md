@@ -46,43 +46,4 @@ Country Explorer is a React-based web application that displays information abou
    npm run dev
    ```
 
-## Project Structure 🎄
-```
-📂 src
-├── 📂 components
-│   ├── Banner.jsx
-│   ├── CountryCard.jsx
-│   ├── Loader.jsx
-├── 📂 pages
-│   ├── Home.jsx
-│   ├── NotFound.jsx
-├── 📂 services
-│   ├── api-service.js
-├── 📂 store
-│   ├── authSlice.js
-│   ├── countrySlice.js
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
-## API Integration 🎯
-Data is fetched using **Axios** in `api-service.js`:
-```javascript
-import axios from 'axios';
-
-const API_URL = import.meta.env.VITE_API_URL;
-
-const getCountries = async () => {
-  try {
-    const response = await axios.get(API_URL);
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching countries", error);
-    return [];
-  }
-};
-
-export default { getCountries };
-```
 Thank you! 😉😎
